@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.footerLogos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    padding: 70px;
+    font-size: 1rem;
+    opacity: 0.64;
+    background-color:rgb(13,110, 253);
+    
+}
+.parrafo{color: black;
+    
+}
+
+.pie p {
+    font-size: 2px;
+}
+
+.linksFooter {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(13,110, 253);
+    gap: 0.5rem;
+    border-radius: 20%;
+  
+
+}
+
+/*LOGO Y LINKS*/
+
+.logoFk {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(13,110, 253);
+    border-radius: 50px;
+}
+.logoIg{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(73, 113, 116);
+    border-radius: 50px;
+    
+}
+.logo {
+    padding: 5px;
+    border-radius: 50px;
+
+}
+
+@media(max-width:366px) {
+    .pie {
+        align-items: normal;
+    }
+    .parrafo { display: none;}
+}
+@media(max-width:600px) {
+
+    .parrafo { display: none;}
+}
+
